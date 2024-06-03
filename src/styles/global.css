@@ -3,7 +3,7 @@
 /* Header */
 .masthead {
     text-align: center;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
+
 }
 
 /* Header */
@@ -11,6 +11,10 @@ img {
     display: block;
     border: 0;
     width: 100%;
+    min-width: 100px;
+    min-height: 50px;
+    max-height: 400px;
+    max-width: 200px;
     height: auto;
   }
     
@@ -19,7 +23,7 @@ margin: 0;
 padding: 0;
 list-style-type: none;
 }
-
+html{background: #383c41;}
 .cards a {
 display: block;
 margin-bottom: 1em;
@@ -28,7 +32,7 @@ text-decoration: none;
 
 .caption {
 padding: 1em;
-background: hsla(246, 40%, 30%, 0.6);
+background: hsla(246, 54%, 59%, 0.06);
 color: white;
 font-size: 1.2em;
 transition: all 0.4s;
@@ -44,7 +48,12 @@ margin: 0;
 font-size: 1.4em;
 line-height: 1.1em;
 }
-
+h3{color:lightslategray ;}
+/* Footer */
+footer{
+    text-align: center;
+    opacity: 0.85;
+}
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
