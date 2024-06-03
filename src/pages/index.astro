@@ -37,7 +37,7 @@ const data = await res.json();
 				{
 					data.map( item =>
 					<li class="card-item">
-						<a href="https://www.cheapshark.com/redirect?dealID={item.cheapestDealID}">
+						<a href="https://www.cheapshark.com/redirect?dealID=$item.cheapestDealID$">
 							<figure class="card">
 							<img src={item.thumb} alt={item.external}">
 							<h3 class="caption-title">{item.external}</h3>
